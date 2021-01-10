@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      Helppo | Start an instant CRUD interface for any Postgres or MySQL
+      database
+    </title>
+    <meta name="og:title" content="Helppo" />
+    <meta
+      name="og:description"
+      content="Start an instant CRUD interface for any Postgres or MySQL
+      database."
+    />
+    <meta
+      name="og:image"
+      content="https://img.socialimagerobot.com/img/jGbslcHbaiQE3Q.png?url=https%3A%2F%2Fhelppo.dev"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *,
+      *::after,
+      *::before {
+        box-sizing: inherit;
+      }
+
+      html {
+        box-sizing: border-box;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        background: none;
+        color: inherit;
+        font: inherit;
+        text-decoration: inherit;
+        font-style: inherit;
+        text-align: inherit;
+      }
+
+      body {
+        font: 13px/1.4 'Open Sans', sans-serif;
+        background-color: #fff;
+        color: #444;
+        padding: 24px 0;
+      }
+
+      .columns {
+        display: flex;
+      }
+
+      @media all and (max-width: 599px) {
+        .columns {
+          flex-direction: column;
+        }
+      }
+
+      @media all and (min-width: 600px) {
+        .column + .column {
+          margin-left: 42px;
+        }
+      }
+
+      .column {
+        margin: 0 24px;
+      }
+
+      .column:nth-child(1) {
+        max-width: 300px;
+      }
+
+      .column:nth-child(2) {
+        max-width: 500px;
+      }
+
+      .column p,
+      .column pre,
+      .column .images {
+        margin: 8px 0;
+      }
+
+      pre {
+        background-color: #f3f4f6;
+        padding: 12px;
+        font: 12px/1.2 'Source Code Pro', monospace;
+      }
+
+      p a {
+        text-decoration: underline;
+      }
+
+      hr {
+        width: 30px;
+        height: 4px;
+        margin: 0 24px;
+        background-color: #f3f4f6;
+      }
+
+      .images img {
+        max-width: 48%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="columns">
+      <div class="column">
+        <p><img src="helppo-logo.png" alt="Helppo logo" width="101" /></p>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <p>
+          Start an instant CRUD interface for any Postgres or MySQL database.
+        </p>
+        <p>Use it via the CLI:</p>
+        <pre>
+$ npm install -g helppo-cli
+$ helppo-cli &lt;connection_string&gt;
+</pre
+        >
+        <p>Or mount it in your NodeJS express application:</p>
+        <pre>
+import helppo from ‘helppo’;
+app.use(helppo());
+</pre
+        >
+        <p>
+          Read more in <a href="https://github.com/codeclown/helppo">GitHub</a>.
+        </p>
+      </div>
+      <div class="column">
+        <div class="images">
+          <a href="https://github.com/codeclown/helppo#browse-database-tables"
+            ><img
+              src="https://github.com/codeclown/helppo/raw/master/docs/screenshots/readme_browse_table.png"
+          /></a>
+          <a href="https://github.com/codeclown/helppo#perform-bulk-actions"
+            ><img
+              src="https://github.com/codeclown/helppo/raw/master/docs/screenshots/readme_batch_operations.png"
+          /></a>
+          <a href="https://github.com/codeclown/helppo#edit-database-rows"
+            ><img
+              src="https://github.com/codeclown/helppo/raw/master/docs/screenshots/readme_edit_row.png"
+          /></a>
+          <a href="https://github.com/codeclown/helppo#run-raw-sql-queries"
+            ><img
+              src="https://github.com/codeclown/helppo/raw/master/docs/screenshots/readme_raw_query.png"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="columns">
+      <div class="column">
+        <p>Sign up to the newsletter to stay up to date:</p>
+
+        <script async data-uid="697bf87efe" src="https://sunny-originator-7326.ck.page/697bf87efe/index.js"></script>
+    </div>
+  </body>
+</html>
